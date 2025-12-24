@@ -32,7 +32,7 @@ publication_short: In *ICSTTE2025*
 
 abstract: Structural Health Monitoring (SHM) for bridges faces a significant challenge, sensor failures and harsh environments often lead to missing monitoring data, while the complex spatio-temporal dependencies within the data prove difficult to capture effectively using traditional methods. Such gaps not only disrupt the continuity of structural safety assessments but may also amplify potential risks. To address this, we introduce Generative Adversarial Interpolation Networks (GAIN) into the SHM domain for the first time and propose the novel Space-GAIN architecture. Its core innovation is the Spatio-Temporal Attention Convolution Block (ST-ACB). This module integrates the local feature extraction capability of Convolutional Neural Networks (CNNs) with the global dependency modeling capability of self-attention mechanisms, elevating the model from single-point value prediction to a deep understanding of the spatio-temporal structure of data. Experiments on real bridge deflection data demonstrate that Space-GAIN achieves higher interpolation accuracy and stronger robustness compared to mainstream benchmark models.
 
-.
+
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
