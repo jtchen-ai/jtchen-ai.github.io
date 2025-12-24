@@ -1,22 +1,24 @@
 ---
-title: 'An example conference paper'
+title: 'Urat: Universal regularized adversarial training in robust reinforcement learning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - me
-  - Robert Ford
+  - Jingtang Chen
+  - Haoxiang Chen
+  - Zilin Niu
+  - Yi zhu
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-10-27T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-10-27T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,13 +29,13 @@ publication_types: ['paper-conference']
 publication: In *Hugo Blox Builder Conference*
 publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: With the increasing maturity of reinforcement learning (RL)technology, its application areas have been widely expanded to several cutting-edge scientific fields, such as artificial intelligence, robotics, intelligent manufacturing, self-driving cars, and cognitive computing. However, the complexity and uncertainty of the real world pose serious challenges to the stability of RL models. For example, in the field of autonomous driving, unpredictable road conditions and variable weather conditions can adversely affect the decision-making process of intelligent driving algorithms, leading them to make irrational decisions. To address this problem, this study proposes a training method called Universal Regularized Adversarial Training in Robust Reinforcement Learning (Urat), which aims to enhance the robustness of the robustness of DRL strategies against potential adversarial attacks. In this study, we introduce a powerful attacker for targeted adversarial training of DRL intelligence. In addition, we innovatively incorporate a robust strategy regularizer into the algorithm to facilitate the learning of strategies by intelligences that can effectively defend against various attacks. The methods in this study have been tested adversarially in several OpenAI Gym environments, including HalfCheetah-v4, Swimmer-v4, and Arcbot-vl.The test results show that the Urat training method can effectively improve the robustness of DRL strategies and achieve robust performance in complex and uncertain environments. This research result not only provides a new perspective in the field of reinforcement learning but also provides theoretical support and technical guarantee for intelligent decision-making in practical application scenarios such as autonomous driving.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - RL
 
 # Display this page in the Featured widget?
 featured: true
@@ -46,7 +48,7 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: "https://raw.githubusercontent.com/mlresearch/v278/main/assets/chen25b/chen25b.pdf"
   - type: code
     url: https://github.com/HugoBlox/hugo-blox-builder
   - type: dataset
