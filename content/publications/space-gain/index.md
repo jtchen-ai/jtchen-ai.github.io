@@ -1,14 +1,15 @@
 ---
-title: 'Urat: Universal regularized adversarial training in robust reinforcement learning'
+title: 'Space-GAIN: A Framework for Deflection Data Restoration Based on Generative Adversarial Imputation Networks'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Jingtang Chen
-  - Haoxiang Chen
-  - Zilin Niu
-  - Yi zhu
+  - Liyuan Wang
+  - Mingjian Fu
+  - Rujie Zhuo
+
 
 # Author notes (optional)
 author_notes:
@@ -26,10 +27,12 @@ publishDate: '2025-10-27T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of 2025 2nd International Conference on Machine Learning and Intelligent Computing, PMLR*
-publication_short: In *MLIC*
+publication: In * 2025 3rd International Conference on SmartRail, Traffic and Transportation Engineering*
+publication_short: In *ICSTTE2025*
 
-abstract: With the increasing maturity of reinforcement learning (RL)technology, its application areas have been widely expanded to several cutting-edge scientific fields, such as artificial intelligence, robotics, intelligent manufacturing, self-driving cars, and cognitive computing. However, the complexity and uncertainty of the real world pose serious challenges to the stability of RL models. For example, in the field of autonomous driving, unpredictable road conditions and variable weather conditions can adversely affect the decision-making process of intelligent driving algorithms, leading them to make irrational decisions. To address this problem, this study proposes a training method called Universal Regularized Adversarial Training in Robust Reinforcement Learning (Urat), which aims to enhance the robustness of the robustness of DRL strategies against potential adversarial attacks. In this study, we introduce a powerful attacker for targeted adversarial training of DRL intelligence. In addition, we innovatively incorporate a robust strategy regularizer into the algorithm to facilitate the learning of strategies by intelligences that can effectively defend against various attacks. The methods in this study have been tested adversarially in several OpenAI Gym environments, including HalfCheetah-v4, Swimmer-v4, and Arcbot-vl.The test results show that the Urat training method can effectively improve the robustness of DRL strategies and achieve robust performance in complex and uncertain environments. This research result not only provides a new perspective in the field of reinforcement learning but also provides theoretical support and technical guarantee for intelligent decision-making in practical application scenarios such as autonomous driving.
+abstract: Structural Health Monitoring (SHM) for bridges faces a significant challenge, sensor failures and harsh environments often lead to missing monitoring data, while the complex spatio-temporal dependencies within the data prove difficult to capture effectively using traditional methods. Such gaps not only disrupt the continuity of structural safety assessments but may also amplify potential risks. To address this, we introduce Generative Adversarial Interpolation Networks (GAIN) into the SHM domain for the first time and propose the novel Space-GAIN architecture. Its core innovation is the Spatio-Temporal Attention Convolution Block (ST-ACB). This module integrates the local feature extraction capability of Convolutional Neural Networks (CNNs) with the global dependency modeling capability of self-attention mechanisms, elevating the model from single-point value prediction to a deep understanding of the spatio-temporal structure of data. Experiments on real bridge deflection data demonstrate that Space-GAIN achieves higher interpolation accuracy and stronger robustness compared to mainstream benchmark models.
+
+.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
